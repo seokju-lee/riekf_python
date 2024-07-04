@@ -4,7 +4,7 @@ This repository contains an implementation of a right-invariant extended Kalman 
 
 ## How to Run
 
-To execute the code, simply run the following command:
+To execute the code, simply run the following command (same as the kinematics examples of the reference code):
 
 ```bash
 git clone https://github.com/seokju-lee/riekf_python.git
