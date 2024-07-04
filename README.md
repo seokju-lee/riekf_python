@@ -15,6 +15,10 @@ The `data/imu_kinematic_measurements.txt` file used in this project was sourced 
 
 [RossHartley/invariant-ekf](https://github.com/RossHartley/invariant-ekf/tree/master)
 
+This data file contains IMU/Contact/Kimenatics value. Each dataset begins with a time value. For the IMU (Inertial Measurement Unit), the data includes angular velocity and linear acceleration. The Contact data contains an ID as the first value and a boolean indicating contact status as the second value. Since this pertains to Cassie, which has two legs, there are four data values in total for Contact.
+
+For Kinematics, the data structure is as follows: the first value is the ID, followed by four values representing a quaternion, three values for position, and thirty-six values for the 6x6 covariance data. Since this is for a bipedal robot, there are two legs, resulting in a total of eighty-eight values for the Kinematics data.
+
 Please ensure that you have this file in the `data` directory before running the code.
 
 ## Citation
