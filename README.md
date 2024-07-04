@@ -8,7 +8,7 @@ To execute the code, simply run the following command:
 
 ```bash
 python3 test.py
-
+```
 ## Data File
 
 The `data/imu_kinematic_measurements.txt` file used in this project was sourced from the following repository:
