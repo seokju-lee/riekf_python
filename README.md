@@ -7,6 +7,8 @@ This repository contains an implementation of a right-invariant extended Kalman 
 To execute the code, simply run the following command:
 
 ```bash
+git clone https://github.com/seokju-lee/riekf_python.git
+cd ~/riekf_python
 python3 test.py
 ```
 ## Data File
